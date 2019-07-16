@@ -5,7 +5,7 @@ This boilerplate provides:
  - prisma server setup
  - database server setup
  - deploy prisma and database to AWS in any region
-![](https://cdn-images-1.medium.com/max/2000/1*p17uapNIac8Grmm8r7wp6Q.png =700x)
+![source: prisma homepage](https://cdn-images-1.medium.com/max/2000/1*p17uapNIac8Grmm8r7wp6Q.png)
 source: [prisma-homepage](https://www.prisma.io/tutorials/deploy-prisma-to-aws-fargate-ct14)
 
 ## Overview
