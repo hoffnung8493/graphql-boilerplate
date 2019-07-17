@@ -5,8 +5,8 @@ This boilerplate provides:
  - prisma server setup
  - database server setup
  - deploy prisma and database to AWS in any region
-![source: prisma homepage](https://cdn-images-1.medium.com/max/2000/1*p17uapNIac8Grmm8r7wp6Q.png)
-source: [prisma-homepage](https://www.prisma.io/tutorials/deploy-prisma-to-aws-fargate-ct14)
+![source: prisma](https://cdn-images-1.medium.com/max/2000/1*p17uapNIac8Grmm8r7wp6Q.png)
+source: [prisma](https://www.prisma.io/tutorials/deploy-prisma-to-aws-fargate-ct14)
 
 ## Overview
 Prisma is a data layer(ORM) that lies on top of a database. 
@@ -40,3 +40,7 @@ We need authentication in each connection(`query`)
 	6. Now you can `npm run dev` to launch your node server on your local machine.
 	7. Go To 	`localhost:4000` to test your graphql queries. As I mentioned in the overview, every communication part requires an authentication. Here we have `jwt` authentication. In `localhost` login to receive your unique `jwt` token. Afterwards you can query other information by adding your `jwt` token in the header as `{ "Authorization": "Bearer <your jwt token>"}`
 	8. Now you can add new `types`(tables), `associations`
+
+    source:
+    *[prisma](https://www.prisma.io/tutorials/deploy-prisma-to-aws-fargate-ct14)
+    *[The Modern GraphQL Bootcamp](https://www.udemy.com/graphql-bootcamp/)
